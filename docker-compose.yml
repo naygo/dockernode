@@ -1,0 +1,16 @@
+# versão do compose
+version: "3"
+
+# serviços da aplicação, neste arquivo tem somente um container
+services:
+    dockernode: 
+        # localização do docker file
+        build: .
+        # comando a ser executado quando a aplicação subir
+        command: npm start
+        # redirecionamento de portas
+        ports: 
+            - "3000:3000"
+        # qual pasta as alterações serão refletidas
+        volumes: 
+            - .:/usr/app
