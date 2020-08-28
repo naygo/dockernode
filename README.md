@@ -6,7 +6,7 @@
 
 Arquivo docker file contém todas as instruções para a aplicação rodar.
 
-Código com exemplo de docker file em aplicação *node*.
+Código com exemplo de dockerfile em aplicação *node*.
 
 # Docker Compose
 
